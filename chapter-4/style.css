@@ -1,0 +1,194 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #9c835f;
+}
+
+.logo h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #724c21;
+  display: block;
+  margin-left: 35px;
+}
+
+.logo img {
+  width: 72px;
+  height: 72px;
+  margin-top: 12px;
+  margin-left: 15px;
+  display: block;
+}
+
+.logo p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #f9b23d;
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.container {
+  margin-top: 2%;
+}
+
+#player-1 {
+  margin-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: black;
+  margin-left: -3%;
+}
+#computer {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: black;
+  margin-right: 2%;
+}
+
+.textVs {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 125px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #bd0000;
+  margin-left: 25px;
+}
+
+.value-text {
+  position: absolute;
+  border-radius: 10px;
+  width: 250px;
+  height: 145px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+  transition: 1s;
+}
+
+.win,
+.draw {
+  position: absolute;
+  border-radius: 10px;
+  margin: -3% -30% 0;
+  width: 250px;
+  height: 145px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+  transition: 1s;
+
+  background: #4c9654;
+  padding: 20px 35px;
+  transform: rotate(-28.87deg);
+}
+
+.draw {
+  background: #035b0c;
+  padding: 45px;
+}
+
+#batu,
+#kertas,
+#gunting,
+#batu-com,
+#kertas-com,
+#gunting-com,
+#refresh {
+  cursor: pointer;
+}
+
+#kertas,
+#kertas-com {
+  background-image: url(assets/kertas.png);
+  background-size: 50%;
+}
+
+#gunting,
+#gunting-com {
+  background-image: url(assets/gunting.png);
+  background-size: 60%;
+}
+
+#batu,
+#batu-com {
+  background-image: url(assets/batu.png);
+  background-size: 65%;
+}
+
+.object {
+  width: 135px;
+  height: 120px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#batu.setBackground,
+#batu-com.setBackground,
+#gunting.setBackground,
+#gunting-com.setBackground,
+#kertas.setBackground,
+#kertas-com.setBackground {
+  background-color: #c4c4c4;
+  transition: 2s;
+}
+
+#refresh {
+  background-image: url(assets/refresh.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+}
+
+#batu:hover,
+#kertas:hover,
+#gunting:hover {
+  width: 150px;
+  transition: 1s;
+}
