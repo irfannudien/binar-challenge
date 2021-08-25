@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+  .container {
+    position: absolute;
+  }
+
+  #player-1 {
+    margin-top: -3%;
+  }
+  #computer {
+    position: absolute;
+    margin-top: 57%;
+  }
+
+  #batu {
+    position: absolute;
+    margin-left: -60%;
+    margin-top: -2%;
+    background-size: 60%;
+  }
+  #batu-com {
+    position: absolute;
+    margin-top: 56%;
+    margin-right: 55%;
+    background-size: 60%;
+  }
+  #kertas {
+    position: absolute;
+    margin-top: -9%;
+    background-size: 45%;
+  }
+  #kertas-com {
+    position: absolute;
+    margin-top: 50%;
+    background-size: 45%;
+  }
+  #gunting {
+    position: absolute;
+    margin-top: -12%;
+    margin-right: -60%;
+    background-size: 55%;
+  }
+  #gunting-com {
+    position: absolute;
+    margin-top: 46%;
+    margin-left: 57%;
+    background-size: 55%;
+  }
+  .textVs {
+    position: absolute;
+    font-size: 80px;
+    margin-top: 17%;
+    margin-left: 0;
+  }
+  .win {
+    position: absolute;
+    margin-top: 20px;
+    transform: rotate(0);
+    font-size: 25px;
+    padding: 10px;
+    width: 42%;
+    height: 75px;
+    text-align: center;
+    left: 28%;
+    top: 160%;
+  }
+  .draw {
+    position: absolute;
+    margin-top: 20px;
+    transform: rotate(0);
+    padding: 13px;
+    font-size: 25px;
+    height: 75px;
+    width: 42%;
+    top: 166%;
+    left: 27%;
+  }
+
+  .setBackground {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+
+  #refresh {
+    position: absolute;
+    margin-top: 70%;
+  }
+}

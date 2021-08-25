@@ -1,0 +1,26 @@
+Guideline OOP Challenge Chapter 4
+
+1. Jelaskan pengertiannya!
+OOP : Object Oriented Programming, penulisan kode program yang berorientasi terhadap objek/menulis
+      struktur data dengan objek. Lebih mudah di modifikasi.
+
+
+2. Jelaskan di bagian mana hal-hal dibawah ini diimplentasikan pada kode anda! (kosongkan jika tidak diimplementasikan)
+
+class	: bagian refresh dan gameplay suit ( suitClass )
+object	: -
+method	: Refresh (Refresh Value)
+	  GamePlay Suit (Memilih object gunting, kertas, batu)
+	  Toogle Background (pada saat klik object, muncul background)
+	  Rotate Start - Stop
+
+constructor: Toggle Background dan Let play = newSuitClass(baris akhir class)
+properties: - Rotate
+	    - Player Choice dan Value Result
+
+encapsulation: suitClass
+abstraction: -
+inheritance: -
+polymorphism: -
+
+visibility modifier: pada gameplay kelas "suitClass"

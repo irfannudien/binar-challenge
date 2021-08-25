@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 25%;
+}
+.background {
+  z-index: -9999;
+  position: absolute;
+  background: url(the-games-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+h3 {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 9%;
+  color: #f3af34;
+}
+form {
+  width: 20%;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 2%;
+  color: #f3af34;
+}
+
+.btn {
+  width: 100%;
+  background: #f3af34;
+}
